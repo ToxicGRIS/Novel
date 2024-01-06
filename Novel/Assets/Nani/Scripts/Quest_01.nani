@@ -1,0 +1,71 @@
+; Trigger when stage completed
+
+; Start
+# Stage_01
+@showUI ActiveQuestUI
+@set activeQuest="q_01_01"
+@setActiveQuestText key:{activeQuest}
+@set q_01_stage=01
+@set desertAvailable=true
+@return
+
+; Talk to NPC2 at location 2
+# Stage_02
+@set activeQuest="q_01_02"
+@setActiveQuestText key:{activeQuest}
+@set q_01_stage=02
+@return
+
+; Talk to NPC2 at location 2 after game
+# Stage_03
+@set activeQuest="q_01_03"
+@setActiveQuestText key:{activeQuest}
+@set q_01_stage=03
+@set forestAvailable=true
+@return
+
+; Take item at location 3
+# Stage_04
+@set activeQuest="q_01_04"
+@setActiveQuestText key:{activeQuest}
+@set q_01_stage=04
+@set forestAvailable=false
+@return
+
+; Go to location 2
+# Stage_05
+@set activeQuest="q_01_05"
+@setActiveQuestText key:{activeQuest}
+@set q_01_stage=05
+@return
+
+; Go to location 1
+# Stage_06
+@set activeQuest="q_01_06"
+@setActiveQuestText key:{activeQuest}
+@set q_01_stage=06
+@return
+
+; Give item to NPC1
+# Stage_07
+@set activeQuest="none"
+@setActiveQuestText key:{activeQuest}
+@set q_01_stage=07
+@return
+
+; Give item to NPC2
+# Stage_08
+@set activeQuest="none"
+@setActiveQuestText key:{activeQuest}
+@set q_01_stage=08
+@return
+
+; Keep item
+# Stage_09
+@set activeQuest="none"
+@setActiveQuestText key:{activeQuest}
+@set q_01_stage=09
+@return
+
+
+@stop

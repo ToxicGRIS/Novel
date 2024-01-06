@@ -1,0 +1,55 @@
+#Start
+@set currentLocation="Plains"
+@hideAll
+@if q_01_stage==05||q_01_stage==04
+    @goto .ThreeTalk
+@endIf
+@choice "Talk to Mr. Donkey" goto:.Donkey
+@choice "Open map" goto:Map.OpenMap
+@stop
+
+#Donkey
+@char Donkey
+@if q_01_stage==01
+    Donkey: Go talk to Mr. Bean in Desert.
+@elseIf q_01_stage==07
+    Donkey: Hi! Nice to see you!
+@elseIf q_01_stage==08||q_01_stage==09
+    Donkey: You are not welcome here!
+@endIf
+@goto .Start
+
+
+#FirstTalkToDonkey
+@char Donkey
+Donkey: Hello there, traveler! What is your name?
+@input playerName summary:"Enter your name"
+@stop
+Donkey: Nice to meet you, {playerName}. Go talk to Mr. Bean in Desert.
+@gosub Quest_01.Stage_01
+@goto .Start
+
+#ThreeTalk
+@gosub Quest_01.Stage_06
+@char Donkey
+@char MrBean
+Donkey: Give apple to me.
+MrBean: No, give apple to me!
+@choice "Give apple to Donkey" goto:.q_01_07
+@choice "Give apple to Mr. Bean" goto:.q_01_08
+@choice "Keep apple" goto:.q_01_09
+@stop
+
+#q_01_07
+@removeItem Apple
+@gosub Quest_01.Stage_07
+@goto .Start
+
+#q_01_08
+@removeItem Apple
+@gosub Quest_01.Stage_08
+@goto .Start
+
+#q_01_09
+@gosub Quest_01.Stage_09
+@goto .Start

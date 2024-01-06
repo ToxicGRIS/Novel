@@ -34,7 +34,7 @@ MonoBehaviour:
         Culture=neutral, PublicKeyToken=null
       - Naninovel.ProjectResourceProvider, Elringus.Naninovel.Runtime, Version=0.0.0.0,
         Culture=neutral, PublicKeyToken=null
-    guid: 6fa81622-ac01-4358-ba19-43219df4b981
+    guid: 12a930d3-6446-4bb3-85ff-2bc5802a4b0b
     customData:
       rid: -2
     Pivot: {x: 0.5, y: 0.5}
@@ -84,7 +84,7 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
         - Naninovel.ProjectResourceProvider, Elringus.Naninovel.Runtime, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
-      guid: 6dce8e74-5022-4d3d-9ecd-800459e7ffe1
+      guid: e5a9ba26-3e75-4204-90fb-5131668613d2
       customData:
         rid: -2
       Pivot: {x: 0.5, y: 0.5}
@@ -121,7 +121,7 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
         - Naninovel.ProjectResourceProvider, Elringus.Naninovel.Runtime, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
-      guid: 141c89a3-d906-4d30-b35a-9e52733691d4
+      guid: 061d2df9-c1f5-4fa1-aa9c-575259d9bc47
       customData:
         rid: -2
       Pivot: {x: 0.5, y: 0.5}
@@ -158,7 +158,7 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
         - Naninovel.ProjectResourceProvider, Elringus.Naninovel.Runtime, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
-      guid: 75b3d60d-5c0e-4233-88a5-8eb1210fc15c
+      guid: e68520d7-5646-4272-b46d-db6b0ad9d882
       customData:
         rid: -2
       Pivot: {x: 0.5, y: 0.5}
@@ -195,7 +195,7 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
         - Naninovel.ProjectResourceProvider, Elringus.Naninovel.Runtime, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
-      guid: a314d537-525a-4f86-8261-33761a65c6eb
+      guid: 9700f6de-8274-474c-bf65-ec7e595751b1
       customData:
         rid: -2
       Pivot: {x: 0.5, y: 0.5}
@@ -232,7 +232,7 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
         - Naninovel.ProjectResourceProvider, Elringus.Naninovel.Runtime, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
-      guid: 7f532875-8375-4508-a23e-095b45c8e097
+      guid: 145124d7-fd87-419f-b341-0b9274f45743
       customData:
         rid: -2
       Pivot: {x: 0.5, y: 0.5}
@@ -269,7 +269,7 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
         - Naninovel.ProjectResourceProvider, Elringus.Naninovel.Runtime, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
-      guid: c404190c-347e-4139-a214-f83abf7581dd
+      guid: 9ef8f91d-cc06-4360-a99a-3905883831f5
       customData:
         rid: -2
       Pivot: {x: 0.5, y: 0.5}
@@ -306,7 +306,7 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
         - Naninovel.ProjectResourceProvider, Elringus.Naninovel.Runtime, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
-      guid: f0e2179b-f811-4109-909c-b076fe04642a
+      guid: 1fb44014-7cc4-4eed-9fce-2a76f6a56921
       customData:
         rid: -2
       Pivot: {x: 0.5, y: 0.5}
@@ -343,7 +343,7 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
         - Naninovel.ProjectResourceProvider, Elringus.Naninovel.Runtime, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
-      guid: 145338ff-e3fc-40a4-9d81-c1de70f534c1
+      guid: 679c3648-0237-46cf-a9cc-bdc295733ca0
       customData:
         rid: -2
       Pivot: {x: 0.5, y: 0.5}
@@ -380,7 +380,7 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
         - Naninovel.ProjectResourceProvider, Elringus.Naninovel.Runtime, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
-      guid: 014a3e4b-89a2-4ffb-80d2-aa23402d58f6
+      guid: 6468f1cb-42f0-4588-a8ec-70d6fc4a147d
       customData:
         rid: -2
       Pivot: {x: 0.5, y: 0.5}
@@ -417,7 +417,7 @@ MonoBehaviour:
           Culture=neutral, PublicKeyToken=null
         - Naninovel.ProjectResourceProvider, Elringus.Naninovel.Runtime, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
-      guid: 242d8ab0-fa73-46aa-95b7-9a40eeae1745
+      guid: 9ea10ff2-1890-4365-8ad2-c6d9876212dd
       customData:
         rid: -2
       Pivot: {x: 0.5, y: 0.5}

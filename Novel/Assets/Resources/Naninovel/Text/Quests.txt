@@ -1,0 +1,6 @@
+q_01_01: Talk to Mr.Bean in Desert
+q_01_02: Talk to Mr.Bean
+q_01_03: Take apple in the Forest
+q_01_04: Go to the Desert
+q_01_05: Go to the Plains
+q_01_06: Choose what to do with apple

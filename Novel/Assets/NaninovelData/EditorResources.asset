@@ -13,67 +13,67 @@ MonoBehaviour:
   m_Name: EditorResources
   m_EditorClassIdentifier: 
   resourceCategories:
-  - Id: TextPrinters/6dce8e74-5022-4d3d-9ecd-800459e7ffe1
+  - Id: TextPrinters/e5a9ba26-3e75-4204-90fb-5131668613d2
     Resources:
     - name: Dialogue
       pathPrefix: TextPrinters
-      guid: 1bc08ccd31adff6439e97161aa6e1d8b
-  - Id: TextPrinters/141c89a3-d906-4d30-b35a-9e52733691d4
+      guid: 0992dcf610afdaa4f8958c1b6994263a
+  - Id: TextPrinters/061d2df9-c1f5-4fa1-aa9c-575259d9bc47
     Resources:
     - name: Fullscreen
       pathPrefix: TextPrinters
       guid: c87cebd3f0d4f174789cd351ce9591c4
-  - Id: TextPrinters/75b3d60d-5c0e-4233-88a5-8eb1210fc15c
+  - Id: TextPrinters/e68520d7-5646-4272-b46d-db6b0ad9d882
     Resources:
     - name: Wide
       pathPrefix: TextPrinters
       guid: 781828b806deb1e4cbf50ef9de41da10
-  - Id: TextPrinters/a314d537-525a-4f86-8261-33761a65c6eb
+  - Id: TextPrinters/9700f6de-8274-474c-bf65-ec7e595751b1
     Resources:
     - name: Chat
       pathPrefix: TextPrinters
       guid: 0126b92e4ff0f564aaa7a38eae3ef6e7
-  - Id: TextPrinters/7f532875-8375-4508-a23e-095b45c8e097
+  - Id: TextPrinters/145124d7-fd87-419f-b341-0b9274f45743
     Resources:
     - name: Bubble
       pathPrefix: TextPrinters
       guid: b47d9659b2be5ee4e95a776f213c9d4b
-  - Id: TextPrinters/c404190c-347e-4139-a214-f83abf7581dd
+  - Id: TextPrinters/9ef8f91d-cc06-4360-a99a-3905883831f5
     Resources:
     - name: TMProDialogue
       pathPrefix: TextPrinters
       guid: 5838611042eaced44954639c4ea4d81e
-  - Id: TextPrinters/f0e2179b-f811-4109-909c-b076fe04642a
+  - Id: TextPrinters/1fb44014-7cc4-4eed-9fce-2a76f6a56921
     Resources:
     - name: TMProFullscreen
       pathPrefix: TextPrinters
       guid: a2aaa417785eeca409e78c404f333ee5
-  - Id: TextPrinters/145338ff-e3fc-40a4-9d81-c1de70f534c1
+  - Id: TextPrinters/679c3648-0237-46cf-a9cc-bdc295733ca0
     Resources:
     - name: TMProWide
       pathPrefix: TextPrinters
       guid: 7860ef40eae6a3341be02586f7edd980
-  - Id: TextPrinters/014a3e4b-89a2-4ffb-80d2-aa23402d58f6
+  - Id: TextPrinters/6468f1cb-42f0-4588-a8ec-70d6fc4a147d
     Resources:
     - name: TMProChat
       pathPrefix: TextPrinters
       guid: 6f9836a3c4f777741b1962979d97e485
-  - Id: TextPrinters/242d8ab0-fa73-46aa-95b7-9a40eeae1745
+  - Id: TextPrinters/9ea10ff2-1890-4365-8ad2-c6d9876212dd
     Resources:
     - name: TMProBubble
       pathPrefix: TextPrinters
       guid: 18cfa78b5fc89b745ba69d51a6a8629a
-  - Id: ChoiceHandlers/9e9a1dea-92fa-4ee8-864f-620fb0b979a5
+  - Id: ChoiceHandlers/dc2263a4-d835-4f6f-8ab3-b5196ea22afc
     Resources:
     - name: ButtonList
       pathPrefix: ChoiceHandlers
       guid: 1f6aa29000e839c409e6a9c0704adc96
-  - Id: ChoiceHandlers/fe0d60cb-9d4b-4338-830b-981856ddbffd
+  - Id: ChoiceHandlers/afbbb0a2-1c94-42c9-9ee9-687df675d9e3
     Resources:
     - name: ButtonArea
       pathPrefix: ChoiceHandlers
       guid: 4fa6d62f894ae6e4698bfa8af59e7942
-  - Id: ChoiceHandlers/96521933-f951-49d5-a7d8-2971fc51e987
+  - Id: ChoiceHandlers/47723b1d-856f-46e9-aa3b-6ec5a4d9aa0c
     Resources:
     - name: ChatReply
       pathPrefix: ChoiceHandlers
@@ -166,3 +166,59 @@ MonoBehaviour:
     - name: ToastUI
       pathPrefix: UI
       guid: dd85ce99288c2f8488447fa511b1c0d6
+    - name: InventoryUI
+      pathPrefix: UI
+      guid: 2fe715ba48253e84fa994c0be165e2c6
+    - name: Map
+      pathPrefix: UI
+      guid: 7fad048c03cab114b8734b5c72c47fd1
+    - name: ActiveQuestUI
+      pathPrefix: UI
+      guid: 068c4d9cd7031ac478181ea36bca4d3a
+  - Id: Scripts
+    Resources:
+    - name: Main
+      pathPrefix: Scripts
+      guid: 32e8a08bb5da8e842b30ccef2e115508
+    - name: Map
+      pathPrefix: Scripts
+      guid: 9d28eb85247111e49a87040980c14f6c
+    - name: Plains
+      pathPrefix: Scripts
+      guid: d933f62fb3da016449ad3133749765fc
+    - name: Desert
+      pathPrefix: Scripts
+      guid: 05a53d62e3ead0c47bc1f3cf7e2b5192
+    - name: Forest
+      pathPrefix: Scripts
+      guid: 639e1b4e0370e8f43a12690d19a8f381
+    - name: Quest_01
+      pathPrefix: Scripts
+      guid: a69b78bc620d59d4e8181be37ab9a60f
+  - Id: Inventory
+    Resources:
+    - name: Apple
+      pathPrefix: Inventory
+      guid: 51ae3ac6c59094d4cb8ed1f51ed03956
+  - Id: Characters/6ba44b1f-e8cb-4d15-8d63-5fc011a53857
+    Resources:
+    - name: patrick
+      pathPrefix: Characters/Patrick
+      guid: dcc6eb16c5aaa274aa35998b990a872e
+  - Id: Characters/1e4ddee6-a84a-43c6-a8f4-0ebfb33bc576
+    Resources:
+    - name: Default
+      pathPrefix: Characters/MrBean
+      guid: ff94d409a128f6a49a428a9cecf67777
+  - Id: Characters/ea2cc267-c6e8-414c-ac3f-38bfda6836be
+    Resources:
+    - name: donkey
+      pathPrefix: Characters/Donkey
+      guid: e7e0057801b151d4b963787b68cee6af
+  - Id: Backgrounds/120da02f-b9b5-4435-b555-a040bc92e884
+    Resources:
+    - name: Map1
+      pathPrefix: Backgrounds/MainBackground
+      guid: 4a5d168a8c1f7f04a8d3157208be5774
+  - Id: Unlockables
+    Resources: []

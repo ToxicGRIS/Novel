@@ -1,0 +1,3 @@
+Donkey: Mr. Donkey
+MrBean: Mr. Bean
+Patrick: Just Patrick

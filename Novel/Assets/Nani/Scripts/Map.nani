@@ -1,0 +1,15 @@
+# OpenMap
+@hidePrinter
+@showUI Map
+@stop
+
+# CloseMap
+@hideUI Map
+@if currentLocation="Plains"
+    @goto Plains.Start
+@elseIf currentLocation="Desert"
+    @goto Desert.Start
+@elseIf currentLocation="Forest"
+    @goto Forest.Start
+@endIf
+@return

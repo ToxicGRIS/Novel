@@ -1,0 +1,49 @@
+; English <en> to Russian <ru> localization document for `Desert` naninovel script
+
+# 28e4a58
+;     @choice "Talk to Mr. Bean" goto:.MrBean
+    @choice "Поговорить с мистером Бином" goto:.MrBean
+
+# ea1a8fe8
+; @choice "Open map" goto:Map.OpenMap
+@choice "Открыть карту" goto:Map.OpenMap
+
+# 4ba7b5d7
+;     MrBean: Hello there! I heard your name is {playerName}.
+    MrBean: Привет! Я слышал, что тебя зовут {playerName}.
+
+# 23efd17e
+;     MrBean: How about to play a game?
+    MrBean: Как насчет сыграть в игру?
+
+# e9d696b2
+;     @choice Yes goto:.q_01_02
+    @choice Да goto:.q_01_02
+
+# 8998496a
+;     @choice No goto:.q_01_02
+    @choice Нет goto:.q_01_02
+
+# dc1d5b9f
+;     MrBean: Hi! Nice to see you!
+    MrBean: Привет! Рад видеть тебя!
+
+# 133553e4
+;     MrBean: Leave me alone!
+    MrBean: Оставь меня в покое!
+
+# 8033ff52
+;     MrBean: Go to the Forest and find an apple.
+    MrBean: Пойди в Лес и найди яблоко.
+
+# 20c7052b
+; Odd, no one here. Need to go check in Plains.
+Странно, никого нет. Нужно проверить на Равнинах.
+
+# 84823a5d
+; MrBean: It doesn't matter, you will play anyway.
+MrBean: Неважно, ты все равно будешь играть.
+
+# 7cbc235c
+; MrBean: Good! Now go to the Forest and find an apple.
+MrBean: Отлично! Теперь иди в Лес и найди яблоко.

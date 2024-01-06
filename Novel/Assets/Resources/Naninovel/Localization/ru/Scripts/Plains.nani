@@ -1,0 +1,56 @@
+; English <en> to Russian <ru> localization document for `Plains` naninovel script
+
+# 5a3cf293
+; @choice "Talk to Mr. Donkey" goto:.Donkey
+@choice "Поговорить с мистером Осликом" goto:.Donkey
+
+# ea1a8fe8
+; @choice "Open map" goto:Map.OpenMap
+@choice "Открыть карту" goto:Map.OpenMap
+
+# 14c628e8
+;     Donkey: Go talk to Mr. Bean in Desert.
+    Donkey: Пойди поговори с мистером Бином в Пустыне.
+
+# e8cb80c4
+;     Donkey: Hi! Nice to see you!
+    Donkey: Привет! Рад видеть тебя!
+
+# badc4cb
+;     Donkey: You are not welcome here!
+    Donkey: Тебе здесь не рады!
+
+# eeddb23
+; Donkey: Hello there, traveler! What is your name?
+Donkey: Привет, путник! Как тебя зовут?
+
+# fc0cf97f
+; @input playerName summary:"Enter your name"
+@input playerName summary:"Введите ваше имя"
+
+# f650f3ff
+; Donkey: Nice to meet you, {playerName}. Go talk to Mr. Bean in Desert.
+Donkey: Приятно познакомиться, {playerName}. Пойди поговори с мистером Бином в Пустыне.
+
+# c6d5a4b2
+; Donkey: Give apple to me.
+Donkey: Дай мне яблоко.
+
+# f1d01270
+; MrBean: No, give apple to me!
+MrBean: Нет, дай мне яблоко!
+
+# e4aa3c8f
+; @choice "Give apple to Donkey" goto:.q_01_07
+@choice "Дать яблоко Ослику" goto:.q_01_07
+
+# 35b85793
+; @choice "Give apple to Mr. Bean" goto:.q_01_08
+@choice "Дать яблоко мистеру Бину" goto:.q_01_08
+
+# 5c9d8236
+; @choice "Keep apple" goto:.q_01_09
+@choice "Сохранить яблоко" goto:.q_01_09
+
+# 1b1ce5b1
+; @goto .Start

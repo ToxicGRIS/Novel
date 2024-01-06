@@ -1,0 +1,9 @@
+; English <en> to Russian <ru> localization document for `Forest` naninovel script
+
+# b5e4ff0f
+; @choice "Find apple" goto:.FindApple if:q_01_stage==03
+@choice "Найти яблоко" goto:.FindApple if:q_01_stage==03
+
+# ea1a8fe8
+; @choice "Open map" goto:Map.OpenMap
+@choice "Открыть карту" goto:Map.OpenMap

@@ -1,0 +1,44 @@
+#Start
+@set currentLocation="Desert"
+@hideAll
+@if q_01_stage==04
+    @goto .q_01_05
+@endIf
+@if q_01_stage!=05
+    @choice "Talk to Mr. Bean" goto:.MrBean
+@endIf
+@choice "Open map" goto:Map.OpenMap
+@stop
+
+#MrBean
+@char MrBean
+@if q_01_stage==01
+    MrBean: Hello there! I heard your name is {playerName}.
+    MrBean: How about to play a game?
+    @choice Yes goto:.q_01_02
+    @choice No goto:.q_01_02
+    @stop
+@elseIf q_01_stage==01
+    @goto Desert.MrBeanAfterGame
+@elseIf q_01_stage==08
+    MrBean: Hi! Nice to see you!
+@elseIf q_01_stage==07||q_01_stage==09
+    MrBean: Leave me alone!
+@elseIf q_01_stage==03
+    MrBean: Go to the Forest and find an apple.
+@endIf
+@goto .Start
+
+#q_01_05
+Odd, no one here. Need to go check in Plains.
+@gosub Quest_01.Stage_05
+@goto .Start
+
+#q_01_02
+MrBean: It doesn't matter, you will play anyway.
+; MEMORY GAME
+@gosub Quest_01.Stage_02
+#MrBeanAfterGame
+MrBean: Good! Now go to the Forest and find an apple.
+@gosub Quest_01.Stage_03
+@goto .Start
