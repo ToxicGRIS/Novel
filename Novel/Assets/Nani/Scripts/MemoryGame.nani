@@ -1,0 +1,6 @@
+# Start
+@hideAll
+@hideUI ActiveQuestUI
+@StartMemoryGame
+@showUI ActiveQuestUI
+@return

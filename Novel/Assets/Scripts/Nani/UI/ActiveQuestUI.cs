@@ -19,7 +19,7 @@ namespace Nani.UI
 
         public void SetText(string key, string category = ManagedTextRecord.DefaultCategoryName)
         {
-            Debug.Log($"___Quest text: {key}");
+            // Debug.Log($"___Quest text: {key}");
             _text.gameObject.SetActive(key != "none");
             _text.text = _textManager.GetRecordValue(key, category);
         }

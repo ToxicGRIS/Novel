@@ -492,6 +492,14 @@ PrefabInstance:
       propertyPath: customVariableName
       value: desertAvailable
       objectReference: {fileID: 0}
+    - target: {fileID: 7281649377392670568, guid: fc285a45bce4baf44bd17dcbdddd1542, type: 3}
+      propertyPath: key
+      value: Desert
+      objectReference: {fileID: 0}
+    - target: {fileID: 7281649377392670568, guid: fc285a45bce4baf44bd17dcbdddd1542, type: 3}
+      propertyPath: defaultValue
+      value: Desert
+      objectReference: {fileID: 0}
     - target: {fileID: 7761383495321471674, guid: fc285a45bce4baf44bd17dcbdddd1542, type: 3}
       propertyPath: m_Text
       value: Desert
@@ -651,6 +659,14 @@ PrefabInstance:
       propertyPath: customVariableName
       value: forestAvailable
       objectReference: {fileID: 0}
+    - target: {fileID: 7281649377392670568, guid: fc285a45bce4baf44bd17dcbdddd1542, type: 3}
+      propertyPath: key
+      value: Forest
+      objectReference: {fileID: 0}
+    - target: {fileID: 7281649377392670568, guid: fc285a45bce4baf44bd17dcbdddd1542, type: 3}
+      propertyPath: defaultValue
+      value: Forest
+      objectReference: {fileID: 0}
     - target: {fileID: 7761383495321471674, guid: fc285a45bce4baf44bd17dcbdddd1542, type: 3}
       propertyPath: m_Text
       value: Forest
@@ -808,6 +824,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6421849108312975905, guid: fc285a45bce4baf44bd17dcbdddd1542, type: 3}
       propertyPath: m_Name
+      value: Plains
+      objectReference: {fileID: 0}
+    - target: {fileID: 7281649377392670568, guid: fc285a45bce4baf44bd17dcbdddd1542, type: 3}
+      propertyPath: key
+      value: Plains
+      objectReference: {fileID: 0}
+    - target: {fileID: 7281649377392670568, guid: fc285a45bce4baf44bd17dcbdddd1542, type: 3}
+      propertyPath: defaultValue
       value: Plains
       objectReference: {fileID: 0}
     - target: {fileID: 7761383495321471674, guid: fc285a45bce4baf44bd17dcbdddd1542, type: 3}

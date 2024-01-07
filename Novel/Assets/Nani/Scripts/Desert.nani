@@ -37,8 +37,10 @@ Odd, no one here. Need to go check in Plains.
 #q_01_02
 MrBean: It doesn't matter, you will play anyway.
 ; MEMORY GAME
+@gosub MemoryGame.Start
 @gosub Quest_01.Stage_02
 #MrBeanAfterGame
+@char MrBean
 MrBean: Good! Now go to the Forest and find an apple.
 @gosub Quest_01.Stage_03
 @goto .Start

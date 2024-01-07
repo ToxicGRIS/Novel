@@ -195,6 +195,9 @@ MonoBehaviour:
     - name: Quest_01
       pathPrefix: Scripts
       guid: a69b78bc620d59d4e8181be37ab9a60f
+    - name: MemoryGame
+      pathPrefix: Scripts
+      guid: b43d3fe26239cb142a1b50022b1d6af8
   - Id: Inventory
     Resources:
     - name: Apple

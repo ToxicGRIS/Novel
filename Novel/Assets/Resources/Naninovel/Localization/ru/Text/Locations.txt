@@ -1,0 +1,5 @@
+; English <en> to Russian <ru> localization document for `Locations` managed text document
+
+Plains: Равнины
+Desert: Пустыня
+Forest: Лес

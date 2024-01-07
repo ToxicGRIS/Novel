@@ -51,6 +51,3 @@ MrBean: Нет, дай мне яблоко!
 # 5c9d8236
 ; @choice "Keep apple" goto:.q_01_09
 @choice "Сохранить яблоко" goto:.q_01_09
-
-# 1b1ce5b1
-; @goto .Start

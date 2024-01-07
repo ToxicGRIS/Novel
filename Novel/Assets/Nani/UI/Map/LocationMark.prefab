@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 6835311213336523773}
   - component: {fileID: 2881426733126732410}
   - component: {fileID: 5904896204785663562}
+  - component: {fileID: 7281649377392670568}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -79,6 +80,36 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: Village
+--- !u!114 &7281649377392670568
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4679499690560217109}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18a93ec42ebe3044abd36de19cc3a880, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  category: Locations
+  key: 
+  defaultValue: 
+  onValueChanged:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 5904896204785663562}
+        m_TargetAssemblyTypeName: UnityEngine.UI.Text, UnityEngine.UI
+        m_MethodName: set_text
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &6421849108312975905
 GameObject:
   m_ObjectHideFlags: 0

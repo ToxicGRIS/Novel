@@ -1,4 +1,5 @@
 ﻿using DTT.MinigameMemory;
+using Nani.Services;
 using Naninovel;
 using UnityEngine;
 
@@ -8,12 +9,10 @@ namespace Nani.Commands
     {
         public override UniTask ExecuteAsync(AsyncToken asyncToken = default)
         {
-            Debug.Log("___StartMemoryGame");
-            var memoryGameManager = Object.FindObjectOfType<MemoryGameManager>();
-            var memoryGameSettings = Resources.Load<MemoryGameSettings>("MemoryGameSettings");
-            // memoryGameManager.Finish += results => { };
-            memoryGameManager.StartGame(memoryGameSettings);
-            return UniTask.CompletedTask;
+            // Debug.Log("___StartMemoryGame");
+
+            var memoryGameService = Engine.GetService<MemoryGameService>();
+            return memoryGameService.StartGame();
         }
     }
 }
