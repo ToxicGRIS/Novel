@@ -1,8 +1,12 @@
 #Start
 @set currentLocation="Plains"
-@hideAll
+@hideChars
+@hidePrinter
+@back Plains wait:false
 @if q_01_stage==05||q_01_stage==04
     @goto .ThreeTalk
+@elseIf q_01_stage==0
+    @goto .FirstTalkToDonkey
 @endIf
 @choice "Talk to Mr. Donkey" goto:.Donkey
 @choice "Open map" goto:Map.OpenMap
@@ -21,6 +25,7 @@
 
 
 #FirstTalkToDonkey
+@bgm Ambient
 @char Donkey
 Donkey: Hello there, traveler! What is your name?
 @input playerName summary:"Enter your name"

@@ -2,9 +2,9 @@
 
 ; Start
 # Stage_01
-@showUI ActiveQuestUI
 @set activeQuest="q_01_01"
 @setActiveQuestText key:{activeQuest}
+@showUI ActiveQuestUI
 @set q_01_stage=01
 @set desertAvailable=true
 @return

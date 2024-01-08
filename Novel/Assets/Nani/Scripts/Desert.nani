@@ -1,6 +1,8 @@
 #Start
 @set currentLocation="Desert"
-@hideAll
+@hideChars
+@hidePrinter
+@back Desert wait:false
 @if q_01_stage==04
     @goto .q_01_05
 @endIf

@@ -1,1 +1,2 @@
-@goto Plains.FirstTalkToDonkey
+@set q_01_stage=0
+@goto Plains.Start

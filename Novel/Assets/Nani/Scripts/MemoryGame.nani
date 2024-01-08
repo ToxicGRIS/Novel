@@ -1,5 +1,6 @@
 # Start
-@hideAll
+@hideChars
+@hidePrinter
 @hideUI ActiveQuestUI
 @StartMemoryGame
 @showUI ActiveQuestUI

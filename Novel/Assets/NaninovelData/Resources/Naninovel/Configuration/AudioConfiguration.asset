@@ -28,8 +28,8 @@ MonoBehaviour:
       Culture=neutral, PublicKeyToken=null
   AudioPlayer: Naninovel.AudioPlayer, Elringus.Naninovel.Runtime, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
-  DefaultMasterVolume: 1
-  DefaultBgmVolume: 1
+  DefaultMasterVolume: 0.2
+  DefaultBgmVolume: 0.5
   DefaultSfxVolume: 1
   DefaultVoiceVolume: 1
   EnableAutoVoicing: 0

@@ -584,6 +584,10 @@
         &lt;Type&gt;Scripts&lt;/Type&gt;
       &lt;/Resource&gt;
       &lt;Resource&gt;
+        &lt;Path&gt;MemoryGame&lt;/Path&gt;
+        &lt;Type&gt;Scripts&lt;/Type&gt;
+      &lt;/Resource&gt;
+      &lt;Resource&gt;
         &lt;Path&gt;Apple&lt;/Path&gt;
         &lt;Type&gt;Inventory&lt;/Type&gt;
       &lt;/Resource&gt;
